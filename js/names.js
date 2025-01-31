@@ -5,10 +5,7 @@
 // 2. Esporta la funzione dal file.2 
 
 
-// CREO VARIABILI
 
-const firstName = "Luca";
-const lastName = "Belardinelli";
 
 
 // CREO LA FUNZIONE
@@ -19,7 +16,7 @@ function names(firstName, lastName){
         firstName: "Luca",
         lastName: "Belardinelli",
     };
-}
+};
 
 
-
+module.exports = names;
