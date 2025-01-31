@@ -19,5 +19,13 @@ const hobbies = require("./hobbies.js");
 // CREO UNA FUNZIONE CHE NON HA PARAMETRI
 
 function Together(){
-    
+    let fullName = names("Luca", "Belardinelli")
+    let interests = hobbies("Manga", "Anime", "Rugby")
+    return {
+        fullName,
+        hobbies : interests,
+    }
+
 };
+
+console.log(Together());

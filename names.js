@@ -13,8 +13,8 @@
 function names(firstName, lastName){
 
     return  {
-        firstName: "Luca",
-        lastName: "Belardinelli",
+        firstName: firstName,
+        lastName: lastName,
     };
 };
 
