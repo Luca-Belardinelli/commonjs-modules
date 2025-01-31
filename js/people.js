@@ -5,3 +5,19 @@
 // La funzione dovrebbe restituire un oggetto con due proprietà: fullName ed hobbies.
 // All’interno della tua funzione,
 // usa le tue due funzioni precedenti per costruire l’oggetto.
+
+
+// IMPORTO FUNZIONE DA NAMES.JS
+
+const names = require("./names.js");
+
+// IMPORTO FUNZIONE DA HOBBIES.JS
+
+const hobbies = require("./hobbies.js");
+
+
+// CREO UNA FUNZIONE CHE NON HA PARAMETRI
+
+function Together(){
+    
+};
